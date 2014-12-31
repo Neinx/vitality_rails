@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 
-gem 'pg'
+gem 'sqlite3'
 gem 'thin'
 
 gem 'sass-rails', '~> 4.0.3'
@@ -21,3 +21,4 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'pg'
